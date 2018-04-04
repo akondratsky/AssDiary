@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assdiary.controller.Controller">
+   <top>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="400.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox>
+               <children>
+                  <TextField fx:id="keyFilter" />
+                  <ListView fx:id="keyListView" />
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <TextField fx:id="assFilter" />
+                  <ListView fx:id="assListView" />
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="Дистанция" />
+                        <Label text="Частота" />
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <ListView fx:id="freqListView" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="200.0" wrapText="true" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <VBox alignment="CENTER" prefHeight="300.0" prefWidth="150.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnCurrentSave" disable="true" mnemonicParsing="false" onAction="#onCurrentSave" text="Сохранить в текущий" />
+            <Button mnemonicParsing="false" onAction="#onSaveButton" text="Сохранить" />
+            <Button mnemonicParsing="false" onAction="#onLoadButton" text="Загрузить" />
+            <Button mnemonicParsing="false" onAction="#saveForAssFinder" text="Сохранить для AssFinder" />
+            <Separator prefWidth="200.0" />
+            <Button fx:id="btnHandle" mnemonicParsing="false" onAction="#onHandleButton" text="Обработать" />
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

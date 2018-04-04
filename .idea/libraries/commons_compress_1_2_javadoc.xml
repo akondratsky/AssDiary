@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="commons-compress-1.2-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/commons-compress-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/config-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/json-20140107.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/logback-classic-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/logback-core-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/mystem-scala-0.1.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/mystem-scala-0.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/scala-library-2.11.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/slf4j-api-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/commons-compress-1.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/commons-io-2.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/config-1.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/json-20140107-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/logback-classic-1.1.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/logback-core-1.1.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/slf4j-api-1.7.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/commons-compress-1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/commons-io-2.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/config-1.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/json-20140107-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/logback-classic-1.1.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/logback-core-1.1.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/scala-library-2.11.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../libs/mystem-scala/slf4j-api-1.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
